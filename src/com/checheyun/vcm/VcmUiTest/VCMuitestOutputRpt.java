@@ -26,7 +26,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMddHHmmss");  
 	String dtime = fmt.format(dt);
 	String filename="testRpt"+dtime+".txt";
-	String filepath="/data/local/testpic/"+filename;
+	String filepath="/sdcard/testpic"+filename;
 	/*---------------IO输出流，注释于此用于复制----------------
 	FileOutputStream fos=new FileOutputStream(filepath,true);
 	String s="start to test loggin,excute time:"+new Date()+"\r\n";
@@ -53,7 +53,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		SimpleDateFormat b = new SimpleDateFormat("yyyyMMddHHmmss");  
 		String c = b.format(a);  
 		System.out.println(c);  
-		File files = new File("/data/local/testpic/"+c+".png");  
+		File files = new File("/sdcard/testpic/"+c+".png");  
 		   getUiDevice().takeScreenshot(files);  
 		}
 	//用于实现正常登录
