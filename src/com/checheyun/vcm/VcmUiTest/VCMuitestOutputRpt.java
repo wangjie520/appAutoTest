@@ -41,7 +41,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 String jar_name = "CaseRpt";
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
-		 String test_name = "testcontinue";
+		 String test_name = "testJieChe";
 		 //方法名
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
@@ -71,8 +71,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject obj1= new UiObject(new UiSelector().text("车况大师"));
 		obj1.clickAndWaitForNewWindow();
 		UiObject needloggin= new UiObject(new UiSelector().description("login_btn"));
-//shit shit,为什么进不了这个if
-		if (!needloggin.exists()){
+		//判断是否有登录按钮，使用等待判断是否存在，否则很大概率不存在
+		if (!needloggin.waitForExists(5000)){
 			System.out.println("无需登录");
 		}
 		else {
