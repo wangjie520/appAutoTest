@@ -6,6 +6,7 @@ import java.io.File;
 
 
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -26,7 +27,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMddHHmmss");  
 	String dtime = fmt.format(dt);
 	String filename="testRpt"+dtime+".txt";
-	String filepath="/sdcard/testpic"+filename;
+	String filepath="/sdcard/testpic/"+filename;
 	/*---------------IO输出流，注释于此用于复制----------------
 	FileOutputStream fos=new FileOutputStream(filepath,true);
 	String s="start to test loggin,excute time:"+new Date()+"\r\n";
@@ -41,7 +42,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 String jar_name = "CaseRpt";
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
-		 String test_name = "testJieChe";
+		 String test_name = "";
 		 //方法名
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
@@ -157,18 +158,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 			}
 		//正常登录
 		//UserNamebtn.click();
-		device.waitForIdle(1000);
-		UserNamebtn.clearTextField();
-		device.waitForIdle(1000);
-		UserNamebtn.setText("15261180520");
-		
-		
-		//passwordBtn.click();
-		passwordBtn.clearTextField();
-		device.waitForIdle(1000);
-		passwordBtn.setText("123456");
-		screenshot();
-		logginbtn.clickAndWaitForNewWindow();
+		vcmlogginachieve();
+
 		//登录成功，点击我的
 		MeBtn.click();
 		
@@ -355,7 +346,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		Btn4.click();
 		Btn1.click();
 		UiObject BtnEnter=new UiObject(new UiSelector().text("确定"));
-		BtnEnter.click();
+		BtnEnter.clickAndWaitForNewWindow();
 		
 		UiObject alertwind=new UiObject(new UiSelector().resourceId("android:id/alertTitle"));
 		String alerttitle=alertwind.getText();
@@ -380,7 +371,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 			fos.close();}
 	}
 	
-	//4-005用于测试接车接收超过30天检测过并且无问题车辆,需要修改数据OK
+	//4-005用于测试接车接收超过30天检测过并且无问题车辆,更改上次检测时间到一月前
+	//db.car.update({"license":"浙A12343"},{$set:{"date_last_checked" : "2017-09-25 16:53:01"}})
 	public void testJieChe3() throws UiObjectNotFoundException, IOException{
 		vcmlogginachieve();		
 		FileOutputStream fos=new FileOutputStream(filepath,true);
@@ -409,7 +401,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		
 		UiObject normalAlert=new UiObject(new UiSelector().text("车辆无异常"));
 		UiObject jiance=new UiObject(new UiSelector().text("开始检测"));
-		UiObject closebtn=new UiObject(new UiSelector().text("关闭"));
+		UiObject closebtn=new UiObject(new UiSelector().text("关 闭"));
 		//验证历史车辆信息是否正确，别的接车场景不再验证待补充
 		UiObject che=new UiObject(new UiSelector().text("别克_君越"));
 		
@@ -462,74 +454,83 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 	}
 	
-	//用于测试接车接收超过30天检测过并且有遗留问题车辆，需要修改数据，后续写
-	public void testJieChe4() throws UiObjectNotFoundException{
-		vcmlogginachieve();		
+	//4-004用于测试接车接收超过30天检测过并且有遗留问题车辆，需要修改数据，后续写
+	public void testJieChe4() throws UiObjectNotFoundException, IOException{
+		vcmlogginachieve();	
+		FileOutputStream fos=new FileOutputStream(filepath,true);
 		UiObject AddCarBtn=new UiObject(new UiSelector().description("task_header_wrap").childSelector(new UiSelector().className("android.view.View").instance(3)));
 		AddCarBtn.click();
 		device.waitForIdle(1000);
 		UiObject keyBoardBtn=new UiObject(new UiSelector().text("手动输入"));
 		keyBoardBtn.clickAndWaitForNewWindow();
-		UiObject ZangBtn=new UiObject(new UiSelector().text("川"));
+		UiObject ZangBtn=new UiObject(new UiSelector().text("浙"));
 		ZangBtn.clickAndWaitForNewWindow();
 		UiObject BtnA=new UiObject(new UiSelector().text("A"));
 		BtnA.click();
-		UiObject Btn5=new UiObject(new UiSelector().text("5"));
-		Btn5.click();
+		UiObject Btn1=new UiObject(new UiSelector().text("1"));
+		Btn1.click();
+		UiObject Btn2=new UiObject(new UiSelector().text("2"));
+		Btn2.click();
 		UiObject Btn3=new UiObject(new UiSelector().text("3"));
 		Btn3.click();
-		Btn3.click();
-		UiObject Btn7=new UiObject(new UiSelector().text("7"));
-		Btn7.click();
-		Btn7.click();
+		UiObject Btn4=new UiObject(new UiSelector().text("4"));
+		Btn4.click();
+		Btn2.click();
 		UiObject BtnEnter=new UiObject(new UiSelector().text("确定"));
 		BtnEnter.click();
-		
 		UiObject yichanginfo=new UiObject(new UiSelector().textMatches(".*个异常.*"));
+		UiObject advice=new UiObject(new UiSelector().textMatches(".*次检测时间间隔太久了，重新.*"));
 		UiObject jiance=new UiObject(new UiSelector().text("开始检测"));
 		UiObject jianyi=new UiObject(new UiSelector().text("操作建议"));
 		//
-		UiObject che=new UiObject(new UiSelector().className("android.widget.TextView").text("奥迪_A6"));
 		
 		if (jianyi.exists()){
-			if (yichanginfo.exists()){
+			if (yichanginfo.exists()&&advice.exists()){
 				System.out.println("远期检查车辆有问题，给出异常提醒成功");
 			}
 			else {
 				System.out.println("远期异常车辆未给出提醒");
+				String s="4-004:"+f+"\r\n";
+				fos.write(s.getBytes());
+				fos.close();
+				return;
 			}
 			//点击关闭
-			UiObject closebtn=new UiObject(new UiSelector().text("关闭"));
+			UiObject closebtn=new UiObject(new UiSelector().text("关 闭"));
 			closebtn.click();
 			AddCarBtn.click();
 			device.waitForIdle(1000);
 			keyBoardBtn.clickAndWaitForNewWindow();
 			ZangBtn.clickAndWaitForNewWindow();
 			BtnA.click();
-			Btn5.click();
+			Btn1.click();
+			Btn2.click();
 			Btn3.click();
-			Btn3.click();
-			Btn7.click();
-			Btn7.click();
+			Btn4.click();
+			Btn2.click();
 			BtnEnter.click();
 			//点击检测进入正常接车页面
 			jiance.clickAndWaitForNewWindow();
-			if (che.exists()){
-				System.out.println("历史车辆信息展示正常");
-			}
-			else {
-				System.out.println("接车页面历史车辆信息无法正常展示");
-			}
+			
 			UiObject jianceleixin=new UiObject(new UiSelector().text("检测类型")); 
 			if(jianceleixin.exists()&&jiance.exists()){
-				System.out.println("开始检测进入检测套餐选择页面成功");				
+				System.out.println("开始检测进入检测套餐选择页面成功");
+				String s="4-004:"+p+"\r\n";
+				fos.write(s.getBytes());
+				fos.close();
 			}
 			else{
 				System.out.println("历史车辆开始检测按钮点击后不能正常跳转套餐选择页面");
+				String s="4-004:"+f+"\r\n";
+				fos.write(s.getBytes());
+				fos.close();
 			}
 		}
 		else{
 			System.out.println("远期有问题车辆，未给出操作建议");
+			String s="4-004:"+f+"\r\n";
+			fos.write(s.getBytes());
+			fos.close();
 		}
 	}
 
@@ -750,7 +751,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 	
 	//2-002，今日数据，不测数据，仅测试跳转
-	public void todayData() throws UiObjectNotFoundException, IOException{
+	public void testtodayData() throws UiObjectNotFoundException, IOException{
 		vcmlogginachieve();
 		FileOutputStream fos=new FileOutputStream(filepath,true);
 		String s="开始测试我的界面今日数据:"+new Date()+"\r\n";
@@ -781,7 +782,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	}
 	
 	//4-008,录入报告，修改车辆信息
-	public void report_modifycarinfo() throws UiObjectNotFoundException, IOException{
+	public void testreport_modifycarinfo() throws UiObjectNotFoundException, IOException{
 		testJieChe5();
 		FileOutputStream fos=new FileOutputStream(filepath,true);
 		String s="开始测试录入报告时修改车辆信息:"+new Date()+"\r\n";
@@ -812,8 +813,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}	
 	}
 	//4-009
-	public void batchSetNormal() throws UiObjectNotFoundException, IOException{
-		report_modifycarinfo();
+	public void testbatchSetNormal() throws UiObjectNotFoundException, IOException{
+		testreport_modifycarinfo();
 		FileOutputStream fos=new FileOutputStream(filepath,true);
 		String s="开始测试录入报告时批量设置良好:"+new Date()+"\r\n";
 		fos.write(s.getBytes());
@@ -874,7 +875,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		
 	}
 	//4-010
-	public void batchAndMoidfyIssue() throws UiObjectNotFoundException, IOException{
+	public void testbatchAndMoidfyIssue() throws UiObjectNotFoundException, IOException{
 		testJieChe5();
 		UiObject kaishijiance=new UiObject(new UiSelector().text("开始检测")); 
 		UiObject taocan=new UiObject(new UiSelector().text("洗车快速检测"));
@@ -979,7 +980,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 	}
 	//4-011
-	public void issueAndBatchSet() throws IOException, UiObjectNotFoundException{
+	public void testissueAndBatchSet() throws IOException, UiObjectNotFoundException{
 		testJieChe5();
 		UiObject kaishijiance=new UiObject(new UiSelector().text("开始检测")); 
 		UiObject taocan=new UiObject(new UiSelector().text("洗车快速检测"));
