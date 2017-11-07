@@ -30473,3 +30473,6131 @@ null
 null
 Calling by::className:com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt  MethodName:vcmlogginachieve
 进程已结束
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+6708 KB/s (26859 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+开始测试接待新车辆浙A12340
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+该车有任务正在完成,给出提示
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期检查车辆无问题，给出无异常提醒成功
+
+历史车辆信息展示正常
+
+开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期检查车辆有问题，给出异常提醒成功
+
+开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Sat Nov 04 16:22:51 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+近期检测有异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+20171104162408
+
+20171104162424
+
+进程已结束
+
+登录的用户是:王杰
+
+20171104162442
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试关于车况大师，执行时间:Sat Nov 04 16:24:54 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+开始测试录入报告时批量设置良好后修改为问题项:Sat Nov 04 16:25:43 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchAndMoidfyIssue:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:873)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:873)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+近期检测无异常车辆未给出操作建议
+
+开始测试录入报告时修改车辆信息:Sat Nov 04 16:26:48 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchSetNormal:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:747)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:747)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试帮助与反馈，执行时间:Sat Nov 04 16:27:11 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+近期检测无异常车辆未给出操作建议
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testissueAndBatchSet:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=洗车快速检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:915)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=洗车快速检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:915)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Sat Nov 04 16:28:09 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+开始执行修改密码，执行时间:Sat Nov 04 16:28:41 GMT+08:00 2017
+
+
+
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+车辆状况信息异常
+
+开始测试录入报告时修改车辆信息:Sat Nov 04 16:30:04 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testreport_modifycarinfo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面今日数据:Sat Nov 04 16:30:26 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+输出结果
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.........E.E..E...E..
+
+Time: 702.445
+
+
+
+FAILURES!!!
+
+Tests run: 17,  Failures: 0,  Errors: 4
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3837 KB/s (26880 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+输出结果
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.005
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2979 KB/s (26848 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待新车辆浙A12340
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+该车有任务正在完成,给出提示
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期检查车辆无问题，给出无异常提醒成功
+
+历史车辆信息展示正常
+
+开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期检查车辆有问题，给出异常提醒成功
+
+开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+近期检测无异常车辆未给出操作建议
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Sat Nov 04 16:50:27 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+近期检测有异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+20171104165147
+
+20171104165202
+
+进程已结束
+
+登录的用户是:王杰
+
+20171104165221
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试关于车况大师，执行时间:Sat Nov 04 16:52:33 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况信息异常
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchAndMoidfyIssue:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=洗车快速检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:810)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=洗车快速检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:810)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+近期检测无异常车辆未给出操作建议
+
+开始测试录入报告时修改车辆信息:Sat Nov 04 16:53:36 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchSetNormal:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:747)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:747)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试帮助与反馈，执行时间:Sat Nov 04 16:53:59 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+近期检测无异常车辆未给出操作建议
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testissueAndBatchSet:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=洗车快速检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:915)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=洗车快速检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:915)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Sat Nov 04 16:54:59 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+开始执行修改密码，执行时间:Sat Nov 04 16:55:33 GMT+08:00 2017
+
+
+
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+近期检测无异常车辆未给出操作建议
+
+开始测试录入报告时修改车辆信息:Sat Nov 04 16:56:54 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testreport_modifycarinfo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=保养全面检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:728)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面今日数据:Sat Nov 04 16:57:17 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+输出结果
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.........E.E..E...E..
+
+Time: 634.07
+
+
+
+FAILURES!!!
+
+Tests run: 17,  Failures: 0,  Errors: 4
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+error: device not found
+error: device not found
+error: device not found
+error: device not found
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+911 KB/s (27367 bytes in 0.029s)
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+该车有任务正在完成,给出提示
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testJieChe3:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=task_header_wrap, CHILD=UiSelector[CLASS=android.view.View, INSTANCE=3]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.jieche(VCMuitestOutputRpt.java:189)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe3(VCMuitestOutputRpt.java:350)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=task_header_wrap, CHILD=UiSelector[CLASS=android.view.View, INSTANCE=3]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.jieche(VCMuitestOutputRpt.java:189)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe3(VCMuitestOutputRpt.java:350)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期检查车辆有问题，给出异常提醒成功
+
+历史车辆开始检测按钮点击后不能正常跳转套餐选择页面
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+界面异常
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Mon Nov 06 11:32:49 GMT+08:00 2017
+
+
+
+
+车辆状况信息异常
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testLoggin:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testLoggin(VCMuitestOutputRpt.java:122)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testLoggin(VCMuitestOutputRpt.java:122)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试关于车况大师，执行时间:Mon Nov 06 11:33:42 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchAndMoidfyIssue:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:696)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:696)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时修改车辆信息:Mon Nov 06 11:34:50 GMT+08:00 2017
+
+
+
+
+开始测试录入报告时批量设置良好:Mon Nov 06 11:35:05 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchSetNormal:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:655)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:655)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试帮助与反馈，执行时间:Mon Nov 06 11:35:46 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testissueAndBatchSet:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:808)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:808)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Mon Nov 06 11:36:47 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+开始执行修改密码，执行时间:Mon Nov 06 11:37:20 GMT+08:00 2017
+
+
+
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testreport_modifycarinfo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:605)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:605)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面今日数据:Mon Nov 06 11:39:07 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+输出结果
+
+INSTRUMENTATION_STATUS: numtests=17
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=...E....E..E.E..E...E..
+
+Time: 539.028
+
+
+
+FAILURES!!!
+
+Tests run: 17,  Failures: 0,  Errors: 6
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4556 KB/s (27368 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期检查车辆有问题，给出异常提醒成功
+
+开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 45.545
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3417 KB/s (27369 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Mon Nov 06 13:48:15 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+近期检测有异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 67.616
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+6833 KB/s (27368 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 44.125
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5468 KB/s (27368 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 49.2
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3422 KB/s (27410 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 07 09:37:49 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testissueAndBatchSet:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=generate_report_btn, CHILD=UiSelector[CLASS=android.view.View]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:858)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=generate_report_btn, CHILD=UiSelector[CLASS=android.view.View]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:858)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 57.254
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4613 KB/s (27710 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testcontinue:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testcontinue(VCMuitestOutputRpt.java:1157)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testcontinue(VCMuitestOutputRpt.java:1157)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 14.918
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3458 KB/s (27692 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+4-011 pass
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.713
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4610 KB/s (27692 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 07 10:34:04 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testissueAndBatchSet:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:877)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:877)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 62.815
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5539 KB/s (27723 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 07 10:38:12 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testissueAndBatchSet:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:880)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testissueAndBatchSet(VCMuitestOutputRpt.java:880)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 61.928
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5542 KB/s (27750 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时修改车辆信息:Tue Nov 07 10:42:08 GMT+08:00 2017
+
+
+
+
+开始测试录入报告时批量设置良好:Tue Nov 07 10:42:21 GMT+08:00 2017
+
+
+
+
+发送按钮存在
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchSetNormal:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:666)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:666)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 55.986
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3965 KB/s (27789 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时修改车辆信息:Tue Nov 07 10:50:10 GMT+08:00 2017
+
+
+
+
+开始测试录入报告时批量设置良好:Tue Nov 07 10:50:23 GMT+08:00 2017
+
+
+
+
+发送按钮存在
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 50.36
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3950 KB/s (27681 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 07 10:59:47 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 67.307
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5529 KB/s (27677 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待新车辆浙A12340
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+该车有任务正在完成,给出提示
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testJieChe3:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=task_header_wrap, CHILD=UiSelector[CLASS=android.view.View, INSTANCE=3]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.jieche(VCMuitestOutputRpt.java:189)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe3(VCMuitestOutputRpt.java:350)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=task_header_wrap, CHILD=UiSelector[CLASS=android.view.View, INSTANCE=3]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.jieche(VCMuitestOutputRpt.java:189)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe3(VCMuitestOutputRpt.java:350)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期有问题车辆，未给出操作建议
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Tue Nov 07 11:10:46 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testJieChe6:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=未完成]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe6(VCMuitestOutputRpt.java:523)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=未完成]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe6(VCMuitestOutputRpt.java:523)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+20171107111151
+
+20171107111207
+
+进程已结束
+
+登录的用户是:王杰
+
+20171107111227
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试关于车况大师，执行时间:Tue Nov 07 11:12:40 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时批量设置良好后修改为问题项:Tue Nov 07 11:13:17 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchAndMoidfyIssue:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:787)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchAndMoidfyIssue(VCMuitestOutputRpt.java:787)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时修改车辆信息:Tue Nov 07 11:14:26 GMT+08:00 2017
+
+
+
+
+开始测试录入报告时批量设置良好:Tue Nov 07 11:14:40 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testbatchSetNormal:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:665)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=跳过]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testbatchSetNormal(VCMuitestOutputRpt.java:665)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试帮助与反馈，执行时间:Tue Nov 07 11:15:13 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 07 11:16:00 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Tue Nov 07 11:16:50 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+开始执行修改密码，执行时间:Tue Nov 07 11:17:24 GMT+08:00 2017
+
+
+
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testreport_modifycarinfo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:605)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testreport_modifycarinfo
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=不，开始检测]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testreport_modifycarinfo(VCMuitestOutputRpt.java:605)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面今日数据:Tue Nov 07 11:19:11 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=18
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+输出结果
+
+INSTRUMENTATION_STATUS: numtests=18
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=18
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=...E...E...E.E......E..
+
+Time: 724.671
+
+
+
+FAILURES!!!
+
+Tests run: 18,  Failures: 0,  Errors: 5
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3068 KB/s (27639 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Tue Nov 07 11:57:44 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+近期检测有异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 56.812
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3944 KB/s (27638 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Tue Nov 07 13:52:38 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.475
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4606 KB/s (27671 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Tue Nov 07 13:54:54 GMT+08:00 2017
+
+
+
+
+{2-009=fail}
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 14.448
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2764 KB/s (27670 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Tue Nov 07 13:56:56 GMT+08:00 2017
+
+
+
+
+{2-009=pass}
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 16.405
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4606 KB/s (27668 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 07 14:04:28 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 67.485
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5527 KB/s (27668 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时批量设置良好后修改为问题项:Tue Nov 07 14:28:43 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 73.346
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3950 KB/s (27685 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testJieChe3:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=task_header_wrap, CHILD=UiSelector[CLASS=android.view.View, INSTANCE=3]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.jieche(VCMuitestOutputRpt.java:189)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe3(VCMuitestOutputRpt.java:350)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=task_header_wrap, CHILD=UiSelector[CLASS=android.view.View, INSTANCE=3]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.jieche(VCMuitestOutputRpt.java:189)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testJieChe3(VCMuitestOutputRpt.java:350)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 23.862
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5520 KB/s (27634 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期无问题车辆，未给出操作建议
+
+{4-005=fail}
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 24.555
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
