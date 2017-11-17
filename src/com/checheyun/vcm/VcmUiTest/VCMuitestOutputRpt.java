@@ -49,7 +49,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 String jar_name = "CaseRpt";
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
-		 String test_name = "testJieChe6";
+		 String test_name = "testJieChe5";
 		 //方法名
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
@@ -77,8 +77,17 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 			f.printStackTrace();
 		}
 		//启动车况大师
+		device.pressHome();
 		UiObject obj1= new UiObject(new UiSelector().text("车况大师"));
-		obj1.clickAndWaitForNewWindow();
+		UiObject apps=new UiObject(new UiSelector().description("Apps"));
+		if (obj1.exists()){
+			obj1.clickAndWaitForNewWindow();
+		}
+		else{
+			apps.click();
+			obj1.clickAndWaitForNewWindow();
+		}
+		
 		UiObject needloggin= new UiObject(new UiSelector().description("login_btn"));
 		//判断是否有登录按钮，使用等待判断是否存在，否则很大概率不存在
 		if (!needloggin.waitForExists(8000)){

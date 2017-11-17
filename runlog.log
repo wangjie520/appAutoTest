@@ -47553,3 +47553,1366 @@ OK (1 test)
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3433 KB/s (37806 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Tue Nov 14 15:42:54 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+近期检测有异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 57.244
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5394 KB/s (37801 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+20171114154430
+
+将车辆信息修改回去
+
+{3-001=pass, 3-002=pass, 3-003=pass, 3-004=pass, 3-005=pass}
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1_check
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1_check
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=2
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1_eva
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1_eva
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=3
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1_wbjl
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试从车辆界面查看维保记录
+
+他店修复的数量是:0
+
+开始测试维保记录详情3-010
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCar1_wbjl:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=空调制冷]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testCar1_wbjl(VCMuitestOutputRpt.java:1366)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar1_wbjl
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=空调制冷]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt.testCar1_wbjl(VCMuitestOutputRpt.java:1366)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=4
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar2_eva
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+{3-001=pass, 3-002=pass, 3-003=pass, 3-004=pass, 3-005=pass, 3-009=fail, 3-011=pass, 3-012=pass, 3-013=pass, 3-014=pass}
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar2_eva
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=5
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar2_qrsg
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+{3-001=pass, 3-002=pass, 3-003=pass, 3-004=pass, 3-005=pass, 3-006=pass, 3-007=pass, 3-009=fail, 3-011=pass, 3-012=pass, 3-013=pass, 3-014=pass}
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar2_qrsg
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=6
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar2_wb
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+{3-001=pass, 3-002=pass, 3-003=pass, 3-004=pass, 3-005=pass, 3-006=pass, 3-007=pass, 3-008=pass, 3-009=fail, 3-011=pass, 3-012=pass, 3-013=pass, 3-014=pass}
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCar2_wb
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=7
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEvaToAll
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEvaToAll
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=8
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEvatoMe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+20171114154939
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEvatoMe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=9
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=10
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+该车有任务正在完成,给出提示
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe2
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=11
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期无问题车辆，未给出操作建议
+
+{2-003=pass, 2-004=pass, 2-005=pass, 2-007=pass, 2-008=pass, 3-001=pass, 3-002=pass, 3-003=pass, 3-004=pass, 3-005=pass, 3-006=pass, 3-007=pass, 3-008=pass, 3-009=fail, 3-011=pass, 3-012=pass, 3-013=pass, 3-014=pass, 4-003=pass, 4-005=fail}
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe3
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=12
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+远期有问题车辆，未给出操作建议
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe4
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=13
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+界面异常
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=14
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试接待近期接待过有异常车辆，执行时间:Tue Nov 14 15:52:27 GMT+08:00 2017
+
+
+
+
+车辆状况提示正确
+
+近期检测有异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe6
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=15
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+20171114155340
+
+20171114155356
+
+进程已结束
+
+登录的用户是:王杰
+
+20171114155415
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testLoggin
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=16
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试关于车况大师，执行时间:Tue Nov 14 15:54:27 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testaboutus
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=17
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=18
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时批量设置良好后修改为问题项:Tue Nov 14 15:55:03 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchAndMoidfyIssue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=18
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=19
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时修改车辆信息:Tue Nov 14 15:56:13 GMT+08:00 2017
+
+
+
+
+开始测试录入报告时批量设置良好:Tue Nov 14 15:56:26 GMT+08:00 2017
+
+
+
+
+检测无问题车辆任务在推送报告后不会产生确认施工的任务
+
+检测无问题车辆任务流不会流转到确认施工
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testbatchSetNormal
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=19
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=20
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testcontinue
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=20
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=21
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试帮助与反馈，执行时间:Tue Nov 14 15:57:05 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testfeedback
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=21
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=22
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试录入报告时设置问题项后批量设置良好:Tue Nov 14 15:57:52 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testissueAndBatchSet
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=22
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=23
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面经营统计:Tue Nov 14 15:58:41 GMT+08:00 2017
+
+
+
+
+{1-001=pass, 1-002=pass, 1-003=pass, 2-001=pass, 2-003=pass, 2-004=pass, 2-005=pass, 2-007=pass, 2-008=pass, 2-009=pass, 2-013=pass, 2-014=pass, 2-015=pass, 3-001=pass, 3-002=pass, 3-003=pass, 3-004=pass, 3-005=pass, 3-006=pass, 3-007=pass, 3-008=pass, 3-009=fail, 3-011=pass, 3-012=pass, 3-013=pass, 3-014=pass, 4-003=pass, 4-004=fail, 4-005=fail, 4-006=pass, 4-007=fail, 4-008=pass, 4-009=pass, 4-010=pass, 4-011=pass}
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testjingyingtongji
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=23
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=24
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+进程已结束
+
+开始执行修改密码，执行时间:Tue Nov 14 15:59:17 GMT+08:00 2017
+
+
+
+
+进程已结束
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testmodifypwd
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=24
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=25
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+开始测试我的界面今日数据:Tue Nov 14 16:00:26 GMT+08:00 2017
+
+
+
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testtodayData
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=25
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=26
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+输出结果
+
+INSTRUMENTATION_STATUS: numtests=26
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testzzzlastcaseinput
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=26
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=....E......................
+
+Time: 978.284
+
+
+
+FAILURES!!!
+
+Tests run: 26,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5395 KB/s (37807 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+无需登录
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 41.665
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+Buildfile: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for CaseRpt...
+[getuitarget] Project Target:   Android 4.4W.2
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 15 source files to D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\src\com\checheyun\vcm\VcmUiTest\VCMuiTestRptInMongo.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] ע: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes
+      [dex] Converting compiled files and external libraries into D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\CaseRpt.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4693 KB/s (37579 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+进程已结束
+
+车辆状况提示正确
+
+近期检测过无异常车辆不进行检测，跳转成功
+
+近期检测无异常车辆开始检测进入检测套餐选择页面成功
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testJieChe5
+
+INSTRUMENTATION_STATUS: class=com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 49.337
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
