@@ -49,7 +49,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 String jar_name = "CaseRpt";
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
-		 String test_name = "testJieChe5";
+		 String test_name = "runthese";
 		 //方法名
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
@@ -64,7 +64,15 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		File files = new File("/sdcard/testpic/"+caseno+"-"+c+".png");  
 		   getUiDevice().takeScreenshot(files);  
 		}
-
+	//用于选择用例执行
+	public void runthese() throws UiObjectNotFoundException, IOException{
+		testJieChe();
+		//testJieChe4();
+		//testCar2_qrsg();
+		//testJieChe6();
+		testbatchAndMoidfyIssue();
+		System.out.println(testResult);
+	}
 	//用于实现正常登录
 	public void vcmlogginachieve(String usrname,String passwd) throws UiObjectNotFoundException{
 		//结束进程
@@ -191,10 +199,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	}
 
 	
-	//用于测试接车接收新车辆 
-	//db.car.remove({license:'蒙A93925'})
-	//db.task.remove({license:'蒙A93925'})
-	//db.task_flow.remove({license:'蒙A93925'})
+	
 	public void jieche(String a,String b,String c,String d,String e,String f,String g) throws UiObjectNotFoundException{
 		UiObject AddCarBtn=new UiObject(new UiSelector().description("task_header_wrap").childSelector(new UiSelector().className("android.view.View").instance(3)));
 		AddCarBtn.click();	
@@ -218,6 +223,11 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject BtnEnter=new UiObject(new UiSelector().text("确定"));
 		BtnEnter.clickAndWaitForNewWindow();
 	}
+	
+	//用于测试接车接收新车辆 
+		//db.car.remove({license:'蒙A93925'})
+		//db.task.remove({license:'蒙A93925'})
+		//db.task_flow.remove({license:'蒙A93925'})
 	public void testJieChe() throws UiObjectNotFoundException, IOException{
 		//点击车况大师图标
 		//判断是否需要登录并最终登录成功
@@ -278,8 +288,15 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				UiObject cadillacseriers=new UiObject(new UiSelector().text("ATS"));
 				cadillacseriers.clickAndWaitForNewWindow();
 				//后续增加里程数等信息以及相应的校验
-				UiObject moreinfo=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(2));
-				moreinfo.click();
+				//2.2.0不隐藏车主信息的录入，放出来让接待填写
+				//UiObject moreinfo=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(2));
+				//moreinfo.click();
+				UiObject gxlc=new UiObject(new UiSelector().text("更新当前里程数"));
+				if (gxlc.exists()){
+					testResult.put("6-002", f);
+				}else{
+					testResult.put("6-002", p);
+				}
 				UiObject vin=scroll.getChild(new UiSelector().className("android.widget.EditText").instance(0));
 				vin.click();
 				vin.clearTextField();
@@ -289,6 +306,11 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				lichen.clearTextField();
 				lichen.setText("5000");
 				UiObject custname=scroll.getChild(new UiSelector().className("android.widget.EditText").instance(2));
+				if (custname.exists()){
+					testResult.put("6-001", p);
+				}else{
+					testResult.put("6-001", f);
+				}
 				custname.click();
 				custname.clearTextField();
 				custname.setText("TEST1");
@@ -297,11 +319,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				phonenum.clearTextField();
 				phonenum.setText("15261180001");
 				//单选框的校验？性别的检测？
-				UiObject sexman=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(3));
-				sexman.click();
-				UiObject sexwoman=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(4));
-				sexwoman.click();
 				
+				device.pressEnter();
 				
 				UiObject quanMianJianCe=new UiObject(new UiSelector().text("保养全面检测"));
 				quanMianJianCe.click();
@@ -360,6 +379,12 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject closebtn=new UiObject(new UiSelector().text("关 闭"));
 		//验证历史车辆信息是否正确，别的接车场景不再验证待补充
 		UiObject che=new UiObject(new UiSelector().text("别克_君越"));
+		UiObject gxlc=new UiObject(new UiSelector().text("更新当前里程数"));
+		if (gxlc.exists()){
+			testResult.put("6-003", p);
+		}else{
+			testResult.put("6-003", f);
+		}
 		
 		if (normalAlert.exists()&&jiance.exists()){
 			System.out.println("远期检查车辆无问题，给出无异常提醒成功");
@@ -540,15 +565,15 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 						UiObject bendianxiufu1=new UiObject(new UiSelector().text("下次再说"));
 						bendianxiufu1.click();
 						UiObject tijiao=new UiObject(new UiSelector().text("提交"));
-						tijiao.click();		
+						tijiao.clickAndWaitForNewWindow();	
 					}
 					else{
 						testResult.put("4-006",f);
 						return;
 					}
-					//2.1.0修改，从任物流确认施工后跳转到任务界面
-					//UiObject rtnbtn=new UiObject(new UiSelector().className("android.widget.ImageView").instance(0));
-					//rtnbtn.click();
+					//2.1.0修改，从任物流确认施工后跳转到任务界面，2.2.0修改为重载任务流程界面
+					UiObject rtnbtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(0));
+					rtnbtn.click();
 					//重新接车，执行重新检测
 					//莫名其妙接车又没有反应
 					renwuliu.click();
@@ -779,6 +804,15 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		kuaimen.click();
 		//从相册选择上传在别的用例体现*/
 		
+		issueEn.click();
+		//2.2.0新增
+		kongTiaoLvXin.clickAndWaitForNewWindow();
+		String remarkcont=beizhu.getText();
+		if (remarkcont.equals("test single issue remark")){
+			testResult.put("5-001", p);
+		}else{
+			testResult.put("5-001", f);
+		}
 		issueEn.click();
 		UiObject preview=new UiObject(new UiSelector().text("预览"));
 		preview.click();
@@ -1322,11 +1356,12 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		editPhone.setText(Utf7ImeHelper.e("17364782550"));
 		device.pressEnter();
 		saveinfo.click();
-		
-		UiObject querenshigongshu=new UiObject(new UiSelector().textContains("待施工确认 "));
+		//2.2.0文案修改
+		//UiObject querenshigongshu=new UiObject(new UiSelector().textContains("待施工确认 "));
+		UiObject querenshigongshu=new UiObject(new UiSelector().textContains("遗留问题"));
 		UiObject ququeren=new UiObject(new UiSelector().text("去确认"));
 		String str=querenshigongshu.getText();
-		if (str.equals("待施工确认 (0)")&&(!ququeren.exists())){
+		if (str.equals("遗留问题 (0)")&&(!ququeren.exists())){
 			testResult.put("3-005", p);
 		}
 		else{
@@ -1409,7 +1444,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject check_his_list=new UiObject(new UiSelector().description("detection_item").instance(0));
 		UiObject scoreobj=new UiObject(new UiSelector().textContains("分"));
 		String score=scoreobj.getText();
-		//System.out.println(score);
+		System.out.println(score);
 		if (score.equals("85分")){
 			testResult.put("3-011",p);
 		}
@@ -1425,6 +1460,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		else{
 			testResult.put("3-012", f);
 		}
+		//System.out.println(testResult);
 		
 		
 	}
@@ -1442,7 +1478,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		else{
 			testResult.put("3-013",f);
 		}
-		
+		System.out.println(testResult);
 		
 	}
 	//3-014
@@ -1460,14 +1496,15 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 		System.out.println(testResult);
 	}
-	//3-006
+	//3-006 2.2.0文案修改
 	public void testCar2_qrsg() throws UiObjectNotFoundException{
 		car_list_detail("藏A12341");
-		UiObject querenshigongshu=new UiObject(new UiSelector().textContains("待施工确认 "));
+		UiObject querenshigongshu=new UiObject(new UiSelector().textContains("遗留问题"));
 		UiObject ququeren=new UiObject(new UiSelector().text("去确认"));
 		UiObject issue1=new UiObject(new UiSelector().text("空调制冷"));
 		UiObject issue2=new UiObject(new UiSelector().text("前刹车片"));
-		if (querenshigongshu.getText().equals("待施工确认 (2)")&&ququeren.exists()&&issue1.exists()&&issue2.exists()){
+		//2.2.0文案修改
+		if (querenshigongshu.getText().equals("遗留问题 (2)")&&ququeren.exists()&&issue1.exists()&&issue2.exists()){
 			testResult.put("3-006",p);
 		}
 		else{
