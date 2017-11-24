@@ -50,7 +50,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
 		 String test_name = "runthese";
-		 //方法名
+		 //方法名,当不指定方法名时，将执行所有以test开头的方法
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
 		 
@@ -66,11 +66,20 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 	//用于选择用例执行
 	public void runthese() throws UiObjectNotFoundException, IOException{
-		testJieChe();
+		//testJieChe();
 		//testJieChe4();
 		//testCar2_qrsg();
 		//testJieChe6();
-		testbatchAndMoidfyIssue();
+		//testCar1();
+		//testCar1_eva();
+		//testbatchAndMoidfyIssue();
+		//testStopTaskFlow();
+		//test6_007();
+		//testCustomizeIssue();
+		//testJieChe3();
+		test6_007();
+		
+		//testCarRemainDemand();
 		System.out.println(testResult);
 	}
 	//用于实现正常登录
@@ -197,9 +206,51 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 			testResult.put("2-001",f);
 		}
 	}
-
-	
-	
+	//随机生成一个省份的车牌号，号码生成规则：（省简称）（随机字母）（用例执行年位数+月日）
+	public String generateLicense(String province){
+		char c=(char)(int)(Math.random()*26+65);
+		String licen=province+c+dtime.substring(3,8);
+		System.out.println("生成的车牌号是:"+licen);
+		return licen;
+		
+	}
+	//接车多态
+	public void jieche(String string) throws UiObjectNotFoundException{
+		char []licenseArr=string.toCharArray();
+		String []cpArr={"","","","","","",""};
+		int licenseLen=string.length();
+		if (licenseLen!=7){
+			System.out.println("车牌号位数错误");
+			return;
+		}
+		else{
+			for(int i=0;i<7;i++){
+				cpArr[i]=String.valueOf(licenseArr[i]);
+			}
+		}
+		UiObject AddCarBtn=new UiObject(new UiSelector().description("task_header_wrap").childSelector(new UiSelector().className("android.view.View").instance(3)));
+		AddCarBtn.click();	
+		device.waitForIdle(1000);
+		UiObject keyBoardBtn=new UiObject(new UiSelector().text("手动输入"));
+		keyBoardBtn.clickAndWaitForNewWindow();
+		UiObject ZangBtn=new UiObject(new UiSelector().text(cpArr[0]));
+		ZangBtn.clickAndWaitForNewWindow();
+		UiObject BtnA=new UiObject(new UiSelector().text(cpArr[1]));
+		BtnA.click();
+		UiObject Btn1=new UiObject(new UiSelector().text(cpArr[2]));
+		Btn1.click();
+		UiObject Btn2=new UiObject(new UiSelector().text(cpArr[3]));
+		Btn2.click();
+		UiObject Btn3=new UiObject(new UiSelector().text(cpArr[4]));
+		Btn3.click();
+		UiObject Btn4=new UiObject(new UiSelector().text(cpArr[5]));
+		Btn4.click();
+		UiObject Btn5=new UiObject(new UiSelector().text(cpArr[6]));
+		Btn5.click();
+		UiObject BtnEnter=new UiObject(new UiSelector().text("确定"));
+		BtnEnter.clickAndWaitForNewWindow();
+	}
+	//接车方法
 	public void jieche(String a,String b,String c,String d,String e,String f,String g) throws UiObjectNotFoundException{
 		UiObject AddCarBtn=new UiObject(new UiSelector().description("task_header_wrap").childSelector(new UiSelector().className("android.view.View").instance(3)));
 		AddCarBtn.click();	
@@ -379,12 +430,6 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject closebtn=new UiObject(new UiSelector().text("关 闭"));
 		//验证历史车辆信息是否正确，别的接车场景不再验证待补充
 		UiObject che=new UiObject(new UiSelector().text("别克_君越"));
-		UiObject gxlc=new UiObject(new UiSelector().text("更新当前里程数"));
-		if (gxlc.exists()){
-			testResult.put("6-003", p);
-		}else{
-			testResult.put("6-003", f);
-		}
 		
 		if (normalAlert.exists()&&jiance.exists()){
 			System.out.println("远期检查车辆无问题，给出无异常提醒成功");
@@ -401,6 +446,12 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				System.out.println("接车页面历史车辆信息无法正常展示");
 				testResult.put("4-005",f);
 				return;
+			}
+			UiObject gxlc=new UiObject(new UiSelector().text("更新当前里程数"));
+			if (gxlc.exists()){
+				testResult.put("6-003", p);
+			}else{
+				testResult.put("6-003", f);
 			}
 			UiObject jianceleixin=new UiObject(new UiSelector().text("检测类型")); 
 			if(jianceleixin.exists()&&jiance.exists()){
@@ -1538,7 +1589,222 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		System.out.println(testResult);
 	}
 	
+	public void testStopTaskFlow() throws UiObjectNotFoundException{
+		vcmlogginachieve("18581540581","123456");
+		jieche("浙A12349");
+		UiObject jiance=new UiObject(new UiSelector().text("不，开始检测"));
+		UiObject wbjl=new UiObject(new UiSelector().text("维保记录"));
+		UiObject rtnbtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(0));
+		if (wbjl.exists()){
+			wbjl.clickAndWaitForNewWindow();
+			UiObject wbcontent=new UiObject(new UiSelector().text("暂无维保记录"));
+			if(wbcontent.exists()){
+				rtnbtn.click();
+				testResult.put("6-006",p);
+			}else{
+				testResult.put("6-006", f);
+			}
+		}else{
+			testResult.put("6-006", f);
+		}
+		jiance.click();
+		UiObject kaishijiance=new UiObject(new UiSelector().text("开始检测")); 
+		UiObject taocan=new UiObject(new UiSelector().text("洗车快速检测"));
+		UiObject tasker=new UiObject(new UiSelector().textContains("(我)"));
+		UiObject queren=new UiObject(new UiSelector().text("确定"));
+		taocan.click();
+		kaishijiance.clickAndWaitForNewWindow();
+		if (tasker.exists()&&queren.exists()){
+			tasker.click();
+			queren.click();
+		}
+		rtnbtn.click();
+		UiObject renwuliu=new UiObject(new UiSelector().text("任务流"));
+		renwuliu.click();
+		UiObject NotSolveTaskFlow=new UiObject(new UiSelector().text("未完成"));
+		NotSolveTaskFlow.click();
+		device.swipe(544, 420, 544, 804, 30);
+		device.waitForIdle(3000);
+		UiObject carTaskFlow=new UiObject(new UiSelector().text("浙A12349").instance(0));
+		carTaskFlow.clickAndWaitForNewWindow();
+		UiObject title=new UiObject(new UiSelector().text("任务流程"));
+		if (title.exists()){
+			UiObject stopFlowBtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(1));
+			stopFlowBtn.clickAndWaitForNewWindow();
+			UiObject stopReason=new UiObject(new UiSelector().className("android.widget.EditText").instance(0));
+			stopReason.click();
+			stopReason.setText(Utf7ImeHelper.e("test stop task flow"));
+			//相当于点击空白处终止输入，否则点击取消或者提交视为此动作
+			UiObject reasonTitle=new UiObject(new UiSelector().text("终止任务流"));
+			reasonTitle.click();
+			UiObject cancelBtn=new UiObject(new UiSelector().text("取消"));
+			cancelBtn.click();
+			UiObject toComplete=new UiObject(new UiSelector().textContains("去完成"));
+			if(toComplete.exists()){
+				testResult.put("4-012", p);
+			}else{
+				testResult.put("4-012", f);
+			}
+			stopFlowBtn.clickAndWaitForNewWindow();
+			stopReason.click();
+			stopReason.setText(Utf7ImeHelper.e("选错套餐了"+dtime));
+			reasonTitle.click();
+			UiObject submitBtn=new UiObject(new UiSelector().text("提交"));
+			submitBtn.click();
+			//终止后重载任务流程界面
+			UiObject flowStatus=new UiObject(new UiSelector().text("任务流程已终止"));
+			UiObject stopPerson=new UiObject(new UiSelector().text("终止人:王杰"));
+			UiObject killReason=new UiObject(new UiSelector().textContains("终止原因:选错"));
+			if (flowStatus.exists()&&stopPerson.exists()&&killReason.exists()){
+				testResult.put("4-013", p);
+			}else{
+				testResult.put("4-013", f);
+			}
+			//测试终止任务流后可以重新接车
+			vcmlogginachieve("18581540581","123456");
+			jieche("浙A12349");
+			if (jiance.exists()){
+				testResult.put("4-014", p);
+			}else{
+				testResult.put("4-014", f);
+			}
+			
+		}
+	}
+	//接车时查看维保记录
+	public void test6_007() throws UiObjectNotFoundException{
+		vcmlogginachieve("18581540581","123456");
+		jieche("藏A12340");
+		UiObject wbjl=new UiObject(new UiSelector().text("维保记录"));
+		wbjl.clickAndWaitForNewWindow();
+		UiObject item1=new UiObject(new UiSelector().text("前刹车片"));
+		UiObject item2=new UiObject(new UiSelector().text("空调制冷"));
+		if(item1.exists()&&item2.exists()){
+			testResult.put("6-007",p);
+		}else{
+			testResult.put("6-007",f);
+		}
+	}
 	
+	//测试车辆列表页面显示遗留问题
+	//public void
+	
+	//测试自定义故障,使用车辆陕XXXXX测试
+	public void testCustomizeIssue() throws UiObjectNotFoundException{
+		vcmlogginachieve("18581540581","123456");
+		String license=generateLicense("陕");
+		jieche(license);
+		//以下接新车
+		UiScrollable scroll=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
+		UiObject xuanchebtn=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(0));
+		xuanchebtn.clickAndWaitForNewWindow();
+		UiScrollable scrollchexin=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
+		UiObject cadillac=scrollchexin.getChildByText(new UiSelector().className("android.widget.TextView"),"奔驰", true);
+		cadillac.clickAndWaitForNewWindow();
+		UiObject cadillacseriers=new UiObject(new UiSelector().text("CLS AMG"));
+		cadillacseriers.clickAndWaitForNewWindow();
+		UiObject quanMianJianCe=new UiObject(new UiSelector().text("保养全面检测"));
+		quanMianJianCe.click();
+		UiObject startCheck=new UiObject(new UiSelector().text("开始检测"));
+		startCheck.click();
+		UiObject tasker=new UiObject(new UiSelector().textContains("(我)"));
+		UiObject queren=new UiObject(new UiSelector().text("确定"));
+		if (tasker.exists()&&queren.exists()){
+			tasker.click();
+			queren.click();
+		}
+		//录入报告
+		UiObject batSet=new UiObject(new UiSelector().text("批量设置良好"));
+		batSet.click();
+		UiObject customizeBtn=new UiObject(new UiSelector().text("自定义"));
+		customizeBtn.click();
+		UiObject addCustIssueBtn=new UiObject(new UiSelector().textContains("自定义故障部位"));
+		addCustIssueBtn.click();
+		UiObject issueName=new UiObject(new UiSelector().className("android.widget.EditText").instance(0));
+		issueName.click();
+		issueName.setText(Utf7ImeHelper.e("大灯"));
+		device.pressEnter();
+		UiObject issueLevel=new UiObject(new UiSelector().text("急需处理"));
+		issueLevel.click();
+		UiObject issueDetail=new UiObject(new UiSelector().className("android.widget.EditText").instance(1));
+		issueDetail.click();
+		issueDetail.setText(Utf7ImeHelper.e("大灯不亮，不亮不亮的嘛"));
+		UiObject issueEn=new UiObject(new UiSelector().className("android.widget.ImageView").instance(1));
+		issueEn.click();
+		UiObject preview=new UiObject(new UiSelector().text("预览"));
+		preview.click();
+		UiObject generateRpt=new UiObject(new UiSelector().description("generate_report"));
+		generateRpt.clickAndWaitForNewWindow();
+		UiObject alerttitle=new UiObject(new UiSelector().text("温馨提示"));
+		if (alerttitle.exists()){
+			UiObject queding=new UiObject(new UiSelector().text("确定"));
+			queding.click();
+		}
+		if (tasker.exists()&&queren.exists()){
+			tasker.click();
+			queren.click();
+		}
+		device.waitForIdle(10000);
+		UiObject sendRpt=new UiObject(new UiSelector().description("generate_report_btn")).getChild(new UiSelector().className("android.view.View"));
+		sendRpt.click();
+		UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
+		if(!newtitle.exists()){
+			sendRpt.clickAndWaitForNewWindow();
+		}
+		device.waitForIdle(5000);
+		//补充RPT内容的校验
+		UiObject skip=new UiObject(new UiSelector().text("跳过"));
+		skip.click();
+		//判断我的待办界面是否还有浙A12345相关任务
+		UiObject daiban=new UiObject(new UiSelector().text("我的待办"));
+		daiban.click();
+		device.swipe(544, 420, 544, 804, 30);
+		device.waitForIdle(3000);
+		UiObject chepai=new UiObject(new UiSelector().text(license));
+		if (chepai.exists()){
+			//确认施工在此用例继续体现，从人物流进
+			UiObject renwuliu=new UiObject(new UiSelector().text("任务流"));
+			renwuliu.click();
+			UiObject NotSolveTaskFlow=new UiObject(new UiSelector().text("未完成"));
+			NotSolveTaskFlow.click();
+			device.swipe(544, 420, 544, 804, 30);
+			device.waitForIdle(1000);
+			UiObject carTaskFlow=new UiObject(new UiSelector().text(license).instance(0));
+			carTaskFlow.clickAndWaitForNewWindow();
+			UiObject title=new UiObject(new UiSelector().text("任务流程"));
+			if (title.exists()){
+				UiObject quwancheng=new UiObject(new UiSelector().textContains("去完成").instance(1));
+				quwancheng.clickAndWaitForNewWindow();
+				UiObject bendianxiufu1=new UiObject(new UiSelector().text("本店修复").instance(0));
+				bendianxiufu1.click();
+				UiObject tijiao=new UiObject(new UiSelector().text("提交"));
+				tijiao.click();
+				testResult.put("6-004",p);	
+			}
+			else{
+				testResult.put("6-004",f);
+			}
+			
+		}
+	}
+	
+	//测试车辆页面的遗留问题提示
+	public void testCarRemainDemand() throws UiObjectNotFoundException{
+		vcmlogginachieve("18581540581","123456");
+		UiObject cars=new UiObject(new UiSelector().text("车辆"));
+		cars.click();
+		UiScrollable scroll=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
+		UiObject carNo=scroll.getChildByText(new UiSelector().className("android.widget.TextView"),"陕A12321", true);
+		if (carNo.exists()){
+			UiObject issueReminder=new UiObject(new UiSelector().text("1个遗留问题"));
+			if (issueReminder.exists()){
+				testResult.put("6-005", p);
+			}else{
+				testResult.put("6-005", f);
+
+			}
+		}	
+	}
 	
 	public int getObjectCNT() throws UiObjectNotFoundException{
 		int i=0;

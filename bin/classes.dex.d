@@ -8,6 +8,7 @@ D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\beetstra\
 D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\beetstra\jutf7\UTF7StyleCharsetEncoder.class \
 D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\checheyun\vcm\VcmUiTest\AllCaseTestEv.class \
 D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\checheyun\vcm\VcmUiTest\loggin.class \
+D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\checheyun\vcm\VcmUiTest\MyUiautomatorApi.class \
 D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\checheyun\vcm\VcmUiTest\StaticO.class \
 D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\checheyun\vcm\VcmUiTest\UiAutomatorHelper.class \
 D:\adt-bundle-windows-x86-20140702\workspace\VCMuiTest\bin\classes\com\checheyun\vcm\VcmUiTest\UItestAllCases.class \
