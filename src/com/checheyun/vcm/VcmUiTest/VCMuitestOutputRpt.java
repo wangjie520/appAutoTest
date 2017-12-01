@@ -830,12 +830,16 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject qianShaChePian=scroll.getChild(new UiSelector().className("android.widget.TextView").text("前刹车片"));
 		UiObject kongTiaoLvXin=scroll.getChild(new UiSelector().className("android.widget.TextView").text("空调滤芯"));
 		qianShaChePian.clickAndWaitForNewWindow();
-		UiObject issue1=new UiObject(new UiSelector().className("android.widget.TextView").text("2~5mm"));
+		//UiObject issue1=new UiObject(new UiSelector().className("android.widget.TextView").text("2~5mm"));
+		//2.3.0检测标准更改
+		UiObject issue1=new UiObject(new UiSelector().className("android.widget.TextView").textContains("4~6mm"));
 		issue1.click();
 		UiObject issueEn=new UiObject(new UiSelector().className("android.widget.ImageView").instance(1));
 		issueEn.click();
 		kongTiaoLvXin.clickAndWaitForNewWindow();
-		UiObject issue2=new UiObject(new UiSelector().className("android.widget.TextView").text("超过100"));
+		//UiObject issue2=new UiObject(new UiSelector().className("android.widget.TextView").text("超过100"));
+		//检测标准更改
+		UiObject issue2=new UiObject(new UiSelector().className("android.widget.TextView").text(">100"));
 		issue2.click();
 		UiObject beizhu=new UiObject(new UiSelector().className("android.widget.EditText"));
 		beizhu.click();
@@ -944,9 +948,12 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		//fos.write(s.getBytes());
 		System.out.println(s);
 		UiScrollable scroll=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
-		UiObject zhidongye=scroll.getChild(new UiSelector().className("android.widget.TextView").text("制动液"));
+		//UiObject zhidongye=scroll.getChild(new UiSelector().className("android.widget.TextView").text("制动液"));
+		//2.3.0制动液改名为刹车油
+		UiObject zhidongye=scroll.getChild(new UiSelector().className("android.widget.TextView").text("刹车油"));
+
 		zhidongye.click();
-		UiObject issue1=new UiObject(new UiSelector().className("android.widget.TextView").text("3%"));
+		UiObject issue1=new UiObject(new UiSelector().className("android.widget.TextView").textContains("3%"));
 		issue1.click();
 		//mark		//上传图片,问题在此，添加图片空间获取错误
 				//UiObject addPic=new UiObject(new UiSelector().className("android.view.View").index(2));
@@ -1820,7 +1827,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	}
 	
 	//用于某个用例失败继续调试
-	public void testcontinue() throws IOException, UiObjectNotFoundException{
+	public void useToDebug() throws IOException, UiObjectNotFoundException{
 	
 		
 		/*comments:
