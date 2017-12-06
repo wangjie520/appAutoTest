@@ -1,5 +1,5 @@
 package com.checheyun.vcm.VcmUiTest;
-
+//包命名规范全小写
 //import java.util.Random;
 
 import java.io.File;
@@ -49,7 +49,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 String jar_name = "CaseRpt";
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
-		 String test_name = "runthese";
+		 String test_name = "";
 		 //方法名,当不指定方法名时，将执行所有以test开头的方法
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
@@ -77,7 +77,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		//test6_007();
 		//testCustomizeIssue();
 		//testJieChe3();
-		test6_007();
+		testjingyingtongji();
+		
 		
 		//testCarRemainDemand();
 		System.out.println(testResult);
@@ -665,7 +666,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		
 		UiObject MeBtn=new UiObject(new UiSelector().text("我的"));
 		MeBtn.click();
-		UiObject todayDataBtn=new UiObject(new UiSelector().text("今日数据"));
+		UiObject todayDataBtn=new UiObject(new UiSelector().text("查看更多"));
 		todayDataBtn.click();
 		
 		UiObject title=new UiObject(new UiSelector().text("历史数据"));
@@ -1191,7 +1192,8 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	//最后一个case,用于输出测试结果到文件
 	public void testzzzlastcaseinput() throws IOException{
 	System.out.println("输出结果");	
-	testResult.put("9-999",p);
+	testResult.put("4-001","manually test");
+	testResult.put("2-006","manually test");
 	FileOutputStream fos=new FileOutputStream(filepath,true);
 	Set<String> set = testResult.keySet(); //key装到set中
     Iterator<String> it = set.iterator(); //返回set的迭代器 装的key值
@@ -1438,7 +1440,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject searchBtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(0));
 		searchBtn.click();
 		UiObject inputCar=new UiObject(new UiSelector().className("android.widget.EditText").instance(0));
-		inputCar.click();
+		//inputCar.click();
 		inputCar.setText(Utf7ImeHelper.e(temp));
 		device.pressEnter();
 		UiObject searchResult=new UiObject(new UiSelector().description("search_car_list_item").instance(0));
