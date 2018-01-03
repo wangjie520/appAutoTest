@@ -70,6 +70,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		//testJieChe4();
 		//testCar2_qrsg();
 		//testJieChe6();
+		//testJieChe4();
 		//testCar1();
 		//testCar1_eva();
 		//testbatchAndMoidfyIssue();
@@ -77,7 +78,9 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		//test6_007();
 		//testCustomizeIssue();
 		//testJieChe3();
-		testjingyingtongji();
+		//testjingyingtongji();
+		//testCar1_eva();
+		testRptCache();
 		
 		
 		//testCarRemainDemand();
@@ -207,7 +210,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 			testResult.put("2-001",f);
 		}
 	}
-	//随机生成一个省份的车牌号，号码生成规则：（省简称）（随机字母）（用例执行年位数+月日）
+	//随机生成一个省份的车牌号，号码生成规则：（省简称）（随机字母）（用例执行年尾数+月日）
 	public String generateLicense(String province){
 		char c=(char)(int)(Math.random()*26+65);
 		String licen=province+c+dtime.substring(3,8);
@@ -215,7 +218,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		return licen;
 		
 	}
-	//接车多态
+	//接车方法重载
 	public void jieche(String string) throws UiObjectNotFoundException{
 		char []licenseArr=string.toCharArray();
 		String []cpArr={"","","","","","",""};
@@ -498,7 +501,12 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 			jieche("浙","A","1","2","3","4","2");
 			//点击检测进入正常接车页面
 			jiance.clickAndWaitForNewWindow();
-			
+			UiObject phoneNumber=new UiObject(new UiSelector().className("android.widget.EditText").text("15208100819"));
+			if(phoneNumber.exists()){
+				testResult.put("5-002",p);
+			}else{
+				testResult.put("5-002",f);
+			}
 			UiObject jianceleixin=new UiObject(new UiSelector().text("检测类型")); 
 			if(jianceleixin.exists()&&jiance.exists()){
 				System.out.println("开始检测进入检测套餐选择页面成功");
@@ -550,6 +558,46 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				if(jianceleixin.exists()&&kaishijiance.exists()){
 					System.out.println("近期检测无异常车辆开始检测进入检测套餐选择页面成功");	
 					testResult.put("4-007",p);
+					//没有执行新的检测，30天后车辆被认定为远期车辆，继续执行录入报告确认施工下次再说保持数据为近期 
+					UiObject taocan=new UiObject(new UiSelector().text("保养全面检测"));
+					taocan.click();
+					kaishijiance.clickAndWaitForNewWindow();
+					UiObject tasker=new UiObject(new UiSelector().textContains("(我)"));
+					UiObject queren=new UiObject(new UiSelector().text("确定"));
+					if (tasker.exists()&&queren.exists()){
+						tasker.click();
+						queren.click();
+					}
+					String s="近期有问题车辆数据保持:"+new Date()+"\r\n";
+					System.out.println(s);
+					
+					UiObject batSet=new UiObject(new UiSelector().text("批量设置良好"));
+					batSet.click();
+					UiObject preview=new UiObject(new UiSelector().text("预览"));
+					preview.click();
+					UiObject generateRpt=new UiObject(new UiSelector().description("generate_report"));
+					generateRpt.clickAndWaitForNewWindow();
+					UiObject alerttitle=new UiObject(new UiSelector().text("温馨提示"));
+					if (alerttitle.exists()){
+						UiObject queding=new UiObject(new UiSelector().text("确定"));
+						queding.click();
+					}
+					if (tasker.exists()&&queren.exists()){
+						tasker.click();
+						queren.click();
+					}
+					device.waitForIdle(5000);
+					UiObject sendRpt=new UiObject(new UiSelector().description("generate_report_btn")).getChild(new UiSelector().className("android.view.View"));
+					sendRpt.click();
+					UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
+					if(!newtitle.waitForExists(8000)){
+						sendRpt.clickAndWaitForNewWindow();
+					}
+					device.waitForIdle(5000);
+					//补充RPT内容的校验
+					UiObject skip=new UiObject(new UiSelector().text("跳过"));
+					skip.click();
+					
 				}
 				else{
 					System.out.println("近期检测无异常车辆开始检测按钮点击后不能正常跳转套餐选择页面");
@@ -572,7 +620,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	}
 	}
 	
-	//4-006用于测试接车近期接待过有异常的车辆
+	//4-006用于测试接车近期接待过有异常的车辆,用例设计问题？？？？
 	public void testJieChe6() throws UiObjectNotFoundException, IOException{
 		vcmlogginachieve("18581540581","123456");
 		String s="开始测试接待近期接待过有异常车辆，执行时间:"+new Date()+"\r\n";
@@ -627,7 +675,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 					UiObject rtnbtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(0));
 					rtnbtn.click();
 					//重新接车，执行重新检测
-					//莫名其妙接车又没有反应
+					//莫名其妙接车又没有反应，点一下任务流
 					renwuliu.click();
 					jieche("浙","A","1","2","3","4","4");
 					jiance.click();
@@ -635,6 +683,73 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 					if(jianceleixin.exists()&&kaishijiance.exists()){
 						System.out.println("近期检测有异常车辆开始检测进入检测套餐选择页面成功");	
 						testResult.put("4-006",p);
+					//没有执行新的检测，30天后车辆被认定为远期车辆，继续执行录入报告确认施工下次再说保持数据为近期 
+						UiObject taocan=new UiObject(new UiSelector().text("保养全面检测"));
+						taocan.click();
+						kaishijiance.clickAndWaitForNewWindow();
+						if (tasker.exists()&&queren.exists()){
+							tasker.click();
+							queren.click();
+						}
+						s="近期有问题车辆数据保持:"+new Date()+"\r\n";
+						System.out.println(s);
+						UiScrollable scroll=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
+						UiObject zhidongye=scroll.getChild(new UiSelector().className("android.widget.TextView").text("电瓶"));
+
+						zhidongye.click();
+						UiObject issue1=new UiObject(new UiSelector().className("android.widget.TextView").textContains("小于"));
+						issue1.click();		
+						UiObject issueEn=new UiObject(new UiSelector().className("android.widget.ImageView").instance(1));
+						issueEn.click();
+						UiObject batSet=new UiObject(new UiSelector().text("批量设置良好"));
+						batSet.click();
+						UiObject preview=new UiObject(new UiSelector().text("预览"));
+						preview.click();
+						UiObject generateRpt=new UiObject(new UiSelector().description("generate_report"));
+						generateRpt.clickAndWaitForNewWindow();
+						UiObject alerttitle=new UiObject(new UiSelector().text("温馨提示"));
+						if (alerttitle.exists()){
+							UiObject queding=new UiObject(new UiSelector().text("确定"));
+							queding.click();
+						}
+						if (tasker.exists()&&queren.exists()){
+							tasker.click();
+							queren.click();
+						}
+						device.waitForIdle(5000);
+						UiObject sendRpt=new UiObject(new UiSelector().description("generate_report_btn")).getChild(new UiSelector().className("android.view.View"));
+						sendRpt.click();
+						UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
+						if(!newtitle.waitForExists(8000)){
+							sendRpt.clickAndWaitForNewWindow();
+						}
+						device.waitForIdle(5000);
+						//补充RPT内容的校验
+						UiObject skip=new UiObject(new UiSelector().text("跳过"));
+						skip.click();
+						//判断我的待办界面是否还有浙A12345相关任务
+						UiObject daiban=new UiObject(new UiSelector().text("我的待办"));
+						daiban.click();
+						device.swipe(544, 420, 544, 804, 30);
+						device.waitForIdle(3000);
+						UiObject chepai=new UiObject(new UiSelector().text("浙A12344"));
+						if (chepai.exists()){
+							//确认施工在此用例继续体现，从人物流进
+							renwuliu.click();
+							NotSolveTaskFlow.click();
+							device.waitForIdle(1000);
+							device.swipe(544, 420, 544, 804, 30);
+							device.waitForIdle(1000);
+							carTaskFlow.clickAndWaitForNewWindow();
+							if (title.exists()){
+								UiObject quwancheng=new UiObject(new UiSelector().textContains("去完成").instance(1));
+								quwancheng.clickAndWaitForNewWindow();
+								UiObject bendianxiufu1=new UiObject(new UiSelector().text("下次再说"));
+								bendianxiufu1.click();
+								UiObject tijiao=new UiObject(new UiSelector().text("提交"));
+								tijiao.click();
+							}
+						}
 					}
 					else{
 						System.out.println("近期检测有异常车辆开始检测按钮点击后不能正常跳转套餐选择页面");
@@ -747,7 +862,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		sendRpt.click();
 		//神奇，很多时候点了sendRpt没反应，再点一次
 		UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
-		if(!newtitle.exists()){
+		if(!newtitle.waitForExists(8000)){
 			sendRpt.clickAndWaitForNewWindow();
 		}
 		device.waitForIdle(5000);
@@ -887,7 +1002,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject sendRpt=new UiObject(new UiSelector().description("generate_report_btn")).getChild(new UiSelector().className("android.view.View"));
 		sendRpt.click();
 		UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
-		if(!newtitle.exists()){
+		if(!newtitle.waitForExists(8000)){
 			sendRpt.clickAndWaitForNewWindow();
 		}
 		device.waitForIdle(5000);
@@ -993,7 +1108,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject sendRpt=new UiObject(new UiSelector().description("generate_report_btn")).getChild(new UiSelector().className("android.view.View"));
 		sendRpt.click();
 		UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
-		if(!newtitle.exists()){
+		if(!newtitle.waitForExists(8000)){
 			sendRpt.clickAndWaitForNewWindow();
 		}
 		device.waitForIdle(5000);
@@ -1695,8 +1810,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 	}
 	
-	//测试车辆列表页面显示遗留问题
-	//public void
+	
 	
 	//测试自定义故障,使用车辆陕XXXXX测试
 	public void testCustomizeIssue() throws UiObjectNotFoundException{
@@ -1730,13 +1844,13 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject addCustIssueBtn=new UiObject(new UiSelector().textContains("自定义故障部位"));
 		addCustIssueBtn.click();
 		UiObject issueName=new UiObject(new UiSelector().className("android.widget.EditText").instance(0));
-		issueName.click();
+		//issueName.click();
 		issueName.setText(Utf7ImeHelper.e("大灯"));
 		device.pressEnter();
 		UiObject issueLevel=new UiObject(new UiSelector().text("急需处理"));
 		issueLevel.click();
 		UiObject issueDetail=new UiObject(new UiSelector().className("android.widget.EditText").instance(1));
-		issueDetail.click();
+		//issueDetail.click();
 		issueDetail.setText(Utf7ImeHelper.e("大灯不亮，不亮不亮的嘛"));
 		UiObject issueEn=new UiObject(new UiSelector().className("android.widget.ImageView").instance(1));
 		issueEn.click();
@@ -1757,7 +1871,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		UiObject sendRpt=new UiObject(new UiSelector().description("generate_report_btn")).getChild(new UiSelector().className("android.view.View"));
 		sendRpt.click();
 		UiObject newtitle=new UiObject(new UiSelector().text("推送报告"));
-		if(!newtitle.exists()){
+		if(!newtitle.waitForExists(8000)){
 			sendRpt.clickAndWaitForNewWindow();
 		}
 		device.waitForIdle(5000);
@@ -1827,22 +1941,91 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		}
 		return num;
 	}
-	
+	//用我自己的车，测试编辑报告，直接推送报告
+	public void myCar(){
+		
+	}
+	//进入某一个车辆已完成/未完成的第一个任务流程,0未完成，1完成
+	public void taskFlowOfCar(String license,int isComplete) throws UiObjectNotFoundException{
+		UiObject taskFlow=new UiObject(new UiSelector().text("任务流"));
+		taskFlow.click();
+		UiObject NotSolveTaskFlow=new UiObject(new UiSelector().text("未完成"));
+		UiObject AllTaskFlow=new UiObject(new UiSelector().text("全部"));
+		if (isComplete==1){
+			AllTaskFlow.click();
+		}else{
+			NotSolveTaskFlow.click();
+		}
+		device.swipe(544, 420, 544, 804, 30);
+		device.waitForIdle(1000);
+		UiObject carTaskFlow=new UiObject(new UiSelector().text(license).instance(0));
+		carTaskFlow.clickAndWaitForNewWindow();
+		UiObject title=new UiObject(new UiSelector().text("任务流程"));
+		if (title.exists()){
+			System.out.println("进入"+license+"的任务流程成功");
+		}
+	}
+	public void taskFlowOfCar(String license)throws UiObjectNotFoundException{
+		taskFlowOfCar(license,0);
+	}
+	//在任务流程中点击第几个去完成
+	public void goToWorkInTaskFlow(int a) throws UiObjectNotFoundException{
+		UiObject ToComplete=new UiObject(new UiSelector().text("去完成 ").instance(a));
+		ToComplete.clickAndWaitForNewWindow();
+	}
+	public void testRptCache() throws UiObjectNotFoundException{
+		int temp1,temp2;//用于判断两个报告的title是否串掉
+		vcmlogginachieve("18581540581","123456");
+		//来回切换两辆车的录入报告页面10次
+		for(int cnt=5;cnt>0;cnt--){
+			taskFlowOfCar("川A00X6P");
+			//点击去完成实例
+			goToWorkInTaskFlow(0);
+			UiObject rtnbtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(0));
+			rtnbtn.click();
+			rtnbtn.click();
+			taskFlowOfCar("青A12321");
+			//点击去完成实例
+			goToWorkInTaskFlow(0);
+			rtnbtn.click();
+			rtnbtn.click();
+		}
+		taskFlowOfCar("川A00X6P");
+		goToWorkInTaskFlow(0);
+		UiObject title1=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.widget.TextView"));
+		if (title1.getText().equals("川A00X6P车况")){
+			temp1=1;
+		}else{
+			temp1=0;
+			System.out.println("加载川A00X6P草稿错误");
+		}
+		UiObject rtnbtn=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.view.View").instance(0));
+		rtnbtn.click();
+		rtnbtn.click();
+		taskFlowOfCar("青A12321");
+		goToWorkInTaskFlow(0);
+		UiObject title2=new UiObject(new UiSelector().description("header_wrap")).getChild(new UiSelector().className("android.widget.TextView"));
+		if (title2.getText().equals("青A12321车况")){
+			temp2=1;
+		}else{
+			temp2=0;
+			System.out.println("加载青A12321草稿错误");
+		}
+		if(temp1*temp2==1){
+			testResult.put("5-003",p);
+		}else{
+			testResult.put("5-003",f);
+		}
+		
+	}
 	//用于某个用例失败继续调试
 	public void useToDebug() throws IOException, UiObjectNotFoundException{
 	
 		
 		/*comments:
-		1.修改帮助与反馈层级目录，兼容老版本
-		2.任务指派根据界面灵活判断
-		3.修改输出报告的方式，将测试结果保存到内存中，最后一起输出到testreport，提升效率并且方便去重与排序。
-		4.截图图片命名修改
-		5.生成报告增加判断是否需要确认
-		6.修改4-008,4-009,4-010，4-011用例车辆，减小用例相关性
-		7.加载报告页面，sendRpt没反应，判断无跳转再点击一次
-		8.修改4-006，不检测跳转任务页面逻辑。
-		9.接车参数化
-		10.新增车辆页面测试用例3-001~3-014
+		1.4-006,4-007完善操作保持车辆为近期有过检测车辆
+		2.if(!newtitle.exists())替换为if(!newtitle.waitForExists(8000))减小网络原因跳转失败的概率
+		3.新增taskFlowOfCar()等方法进入某辆车的任务流执行某个任务，简化代码
 		*/
 	}
 }
