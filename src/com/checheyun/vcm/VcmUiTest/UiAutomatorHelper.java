@@ -16,7 +16,7 @@ import java.io.OutputStreamWriter;
 public class UiAutomatorHelper {
 
 	// 以下参数需要配置，用例集id，用例id，安卓id
-	private static String android_id = "3";
+	private static String android_id = "";
 	private static String jar_name = "";
 	private static String test_class = "";
 	private static String test_name = "";
