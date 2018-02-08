@@ -2048,7 +2048,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	
 		
 		/*comments:
-		1.
+		1.testtest
 		*/
 	}
 }
