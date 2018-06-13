@@ -49,7 +49,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		 String jar_name = "CaseRpt";
 		 //生成jar的名字
 		 String test_class = "com.checheyun.vcm.VcmUiTest.VCMuitestOutputRpt";
-		 String test_name = "";
+		 String test_name = "testJieChe";
 		 //方法名,当不指定方法名时，将执行所有以test开头的方法
 		 new UiAutomatorHelper(jar_name,test_class,test_name,android_id);
 		 
@@ -67,7 +67,7 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 	//用于选择用例执行
 	public void runthese() throws UiObjectNotFoundException, IOException{
 		
-		testJieChe5();
+		testEvaToAll();
 		
 		
 		
@@ -287,50 +287,14 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 		6.上次检测没问题，时间大于30天：
 		 //*/
 		jieche("浙","A","1","2","3","4","0");
-	/*	int x=new Random().nextInt(6)+1;
-		switch(x){
-		case 1:
-			Btn1.click();
-			break;
-		case 2:
-			Btn2.click();
-			break;
-		case 3:
-			Btn3.click();
-			break;
-		case 4:
-			Btn4.click();
-			break;
-		case 5:
-			UiObject Btn5=new UiObject(new UiSelector().text("5"));
-			Btn5.click();
-			break;
-		case 6:
-			UiObject Btn6=new UiObject(new UiSelector().text("6"));
-			Btn6.click();
-			break;
-		}*/
+	
 		
 		
 		//判断车牌号，验证跳转页面
-		UiObject chepai=new UiObject(new UiSelector().className("android.widget.TextView").instance(1));
-		if (chepai.exists()){
-			String cph=chepai.getText();
 		
-	//以下为第一次进店车辆接待
-			if (cph.equals("浙A12340")){
-				System.out.println("开始测试接待新车辆"+cph);
 				//接车页面滚动对象
-				UiScrollable scroll=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
-				UiObject xuanchebtn=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(0));
-				xuanchebtn.clickAndWaitForNewWindow();
-				//选择车型凯迪拉克
-				UiScrollable scrollchexin=new UiScrollable(new UiSelector().className("android.widget.ScrollView"));
-				UiObject cadillac=scrollchexin.getChildByText(new UiSelector().className("android.widget.TextView"),"凯迪拉克", true);
-				cadillac.clickAndWaitForNewWindow();
-				//选择车系列ATS
-				UiObject cadillacseriers=new UiObject(new UiSelector().text("ATS"));
-				cadillacseriers.clickAndWaitForNewWindow();
+		ReceptionCarInfo receptionCarInfo=new ReceptionCarInfo();
+		
 				//后续增加里程数等信息以及相应的校验
 				//2.2.0不隐藏车主信息的录入，放出来让接待填写
 				//UiObject moreinfo=scroll.getChild(new UiSelector().className("android.widget.ImageView").instance(2));
@@ -341,33 +305,19 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				}else{
 					testResult.put("6-002", p);
 				}
-				UiObject vin=scroll.getChild(new UiSelector().className("android.widget.EditText").instance(0));
-				vin.click();
-				vin.clearTextField();
-				vin.setText("VINTEST8901234567");
-				UiObject lichen=scroll.getChild(new UiSelector().className("android.widget.EditText").instance(1));
-				lichen.click();
-				lichen.clearTextField();
-				lichen.setText("5000");
-				UiObject custname=scroll.getChild(new UiSelector().className("android.widget.EditText").instance(2));
-				if (custname.exists()){
-					testResult.put("6-001", p);
-				}else{
-					testResult.put("6-001", f);
-				}
-				custname.click();
-				custname.clearTextField();
-				custname.setText("TEST1");
-				UiObject phonenum=scroll.getChild(new UiSelector().className("android.widget.EditText").instance(3));
-				phonenum.click();
-				phonenum.clearTextField();
-				phonenum.setText("15261180001");
-				//单选框的校验？性别的检测？
+				receptionCarInfo.setBrandAndSeries("凯迪拉克", "XTS");
+				receptionCarInfo.setMileage("10000");
+				receptionCarInfo.choosePackage("保养全面检测");
 				
-				device.pressEnter();
+				ReceptionCustInfo receptionCustInfo=new ReceptionCustInfo();
+				receptionCustInfo.setCustName("王杰");
+				receptionCustInfo.setPhoneNumber("17364782550");
+				receptionCustInfo.setSex("M");
 				
-				UiObject quanMianJianCe=new UiObject(new UiSelector().text("保养全面检测"));
-				quanMianJianCe.click();
+				
+				receptionCarInfo.startCheck();
+				
+			
 				
 				//UiObject kaishijiance=new UiObject(new UiSelector().text("开始检测"));
 				//kaishijiance.click();
@@ -376,12 +326,10 @@ public class VCMuitestOutputRpt extends UiAutomatorTestCase {
 				testResult.put("4-002",p);
 				
 					
-			}
+			
 		
-		}	
-		else  {
-			testResult.put("4-002",f);
-			}
+		
+		
 		
 	}
 	

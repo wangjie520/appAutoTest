@@ -1,2 +1,4 @@
 #ignore these files
 bin
+
+runlog.log
